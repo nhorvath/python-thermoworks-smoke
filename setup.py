@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='thermoworks_smoke',
-    version='0.1.4',
+    version='0.1.5',
     url='https://github.com/nhorvath/python-thermoworks-smoke',
     description='Pull data for your thermoworks smoke thermometer',
     author='nhorvath',
