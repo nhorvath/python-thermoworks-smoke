@@ -1,0 +1,1 @@
+from .thermoworks_smoke import initialize_app
