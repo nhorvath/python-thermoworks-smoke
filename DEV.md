@@ -5,14 +5,14 @@ Create a new virtualenv and install the required libraries
 
 ```
 mkvirtualenv -p python3 python-thermoworks-smoke # if you have virtualenvwrapper installed
-pip install -r requirements.txt
+pip install --upgrade -r requirements.txt
 ```
 
 Building
 ========
 
 1. Install/Update build dependencies:
-`pip install --upgrade pip setuptools wheel twine`
+`pip install --upgrade -r requirements.build.txt`
 1. Increment the version number in setup.py
 1. Create the package files:
 `python setup.py sdist bdist_wheel`
