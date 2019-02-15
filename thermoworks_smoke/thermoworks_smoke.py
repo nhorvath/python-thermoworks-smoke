@@ -3,7 +3,7 @@ Support for getting the state of a Thermoworks Smoke Thermometer
 Requires Smoke Gateway Wifi
 """
 
-REQUIREMENTS = ['pyrebase4>=4.1.0']
+REQUIREMENTS = ['pyrebase4>=4.3.0']
 
 # Temperature units
 TEMP_CELSIUS = '°C'

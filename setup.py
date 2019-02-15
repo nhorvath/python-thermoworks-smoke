@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='thermoworks_smoke',
-    version='0.1.7',
+    version='0.1.8',
     url='https://github.com/nhorvath/python-thermoworks-smoke',
     description='Pull data for your thermoworks smoke thermometer',
     long_description=long_description,
@@ -22,6 +22,6 @@ setup(
     keywords='Thermoworks',
     packages=find_packages(exclude=['tests']),
     install_requires=[
-        'pyrebase4>=4.2.0'
+        'pyrebase4>=4.3.0'
     ]
 )
